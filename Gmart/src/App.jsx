@@ -7,6 +7,7 @@ import Carousel from './Carousel';
 import PromoSection from './PromoSection';
 import ProductList from './ProductList';
 import Footer from './Footer.';
+import SignIn from './SignIn';
 const Home = () => (
     <div>
         <Dropdowns />
@@ -25,12 +26,12 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/cart" element={<SimplePage title="Shopping Cart" />} />
-                <Route path="/signin" element={<SimplePage title="Sign In" />} />
                 <Route path="/groceries" element={<SimplePage title="Groceries" />} />
                 <Route path="/home-lifestyle" element={<SimplePage title="Home & Lifestyle" />} />
                 <Route path="/electronics" element={<SimplePage title="Electronics" />} />
                 <Route path="/fashion" element={<SimplePage title="Fashion" />} />
                 <Route path="/all-categories" element={<SimplePage title="All Categories" />} />
+                <Route path="/Signin" element={<SignIn />} />
             </Routes>
             <Footer />
         </Router>
@@ -38,3 +39,4 @@ const App = () => {
 }
 
 export default App;
+

@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Link to="/cart" className="ml-2">
                     <FaShoppingCart className="text-white text-2xl" />
                 </Link>
-                <Link to="/signin" className="ml-2 bg-transparent border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-blue-800 transition">Sign In</Link>
+                <Link to="/Signin" className="ml-2 bg-transparent border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-blue-800 transition">Sign In</Link>
             </div>
         </nav>
     );
