@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="bg-blue-800 text-white flex items-center justify-between p-4">
             <Link className="flex items-center" to="/">
                 <img src="galaxy_mart_logo.png" alt="Galaxy Mart Logo" width="30" height="30" className="mr-2" />
-                <span className="text-xl font-bold">Gmart</span>
+                <span className="text-2xl font-bold">Gmart</span>
             </Link>
             <div className="flex items-center">
                 <form className="flex mx-auto">
